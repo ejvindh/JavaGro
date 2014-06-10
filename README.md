@@ -1,71 +1,32 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 JavaGro
 =======
 
-Java-reader til Gyldendals ordb¯ger
+Java-reader til Gyldendals ordbÔøΩger
 
-Dette projekt er en videref¯rsel af Athas-crew'ets arbejde med at lave en reader af Gyldendals ordb¯ger, der fungerer pÂ andet end Windows og Mac:
+Dette projekt er en viderefÔøΩrsel af Athas-crew'ets arbejde med at lave en reader af Gyldendals ordbÔøΩger, der fungerer pÔøΩ andet end Windows og Mac:
 https://github.com/Athas/spt-gro
 
-I et andet projekt har jeg udvidet det til at kunne hÂndtere flere ordb¯ger:
+I et andet projekt har jeg udvidet det til at kunne hÔøΩndtere flere ordbÔøΩger:
 https://github.com/ejvindh/spt-gro
 
 I dette projekt har jeg oversat Python-koden til Java-kode.
 
-Dette projekt forudsÊtter Java8 for at kunne fungere.
+Dette projekt forudsÔøΩtter Java8 for at kunne fungere.
 
-Dette projekt kan hÂndtere de ordb¯ger, der findes pÂ:
+Dette projekt kan hÔøΩndtere de ordbÔøΩger, der findes pÔøΩ:
 http://ordbog.gyldendal.dk/
-Det er testet pÂ "Download" ordb¯gerne, sÂ hvis du i forvejen har en CDrom el.lign med ordb¯gerne, er det ikke sikkert, at du kan bruge databaserne derfra -- i hvert fald ikke hvis det er en Êldre udgave.
+Det er testet pÔøΩ "Download" ordbÔøΩgerne, sÔøΩ hvis du i forvejen har en CDrom el.lign med ordbÔøΩgerne, er det ikke sikkert, at du kan bruge databaserne derfra -- i hvert fald ikke hvis det er en ÔøΩldre udgave.
 
-I skrivende stund findes der ordb¯ger engelsk, tysk, fransk, spansk, italiensk, svensk, norsk, engelsk (fag/teknik), stor dansk-engelsk, stor engelsk-dansk, retskrivning, fremmedord, synonymer, dansk. Alle disse kan hÂndteres af dette projekt.
+I skrivende stund findes der ordbÔøΩger engelsk, tysk, fransk, spansk, italiensk, svensk, norsk, engelsk (fag/teknik), stor dansk-engelsk, stor engelsk-dansk, retskrivning, fremmedord, synonymer, dansk. Alle disse kan hÔøΩndteres af dette projekt.
 
-For at k¯re programmet, skal du
-(1) Hente JavaGro.jar ned pÂ din computer.
+For at kÔøΩre programmet, skal du
+(1) Hente JavaGro.jar ned pÔøΩ din computer.
 
-(2) Kopiere ordbogsfilerne over i en undermappe til der hvor JavaGro ligger. Mappen skal hedde "data". For at finde disse filer, er du n¯dt til at have installeret den pÂgÊldende ordbog pÂ en windows-computer (eller Wine i Linux). Herefter kan du finde dem i mappen %Program Files%Gyldendal/R¯de Ordb¯ger/data -- det drejer sig om to filer for hver ordbog, og de har fil-endelserne *.dat og *.gdd.
+(2) Kopiere ordbogsfilerne over i en undermappe til der hvor JavaGro ligger. Mappen skal hedde "data". For at finde disse filer, er du nÔøΩdt til at have installeret den pÔøΩgÔøΩldende ordbog pÔøΩ en windows-computer (eller Wine i Linux). Herefter kan du finde dem i mappen %Program Files%Gyldendal/RÔøΩde OrdbÔøΩger/data -- det drejer sig om to filer for hver ordbog, og de har fil-endelserne *.dat og *.gdd.
 
-(2) SÂ er du klar til at k¯re programmet. Det startes med kommandoen:
+(3) SÔøΩ er du klar til at kÔøΩre programmet. Det startes med kommandoen:
 java -jar JavaGro.jar
 
-God arbejdslyst. Ligesom Athas vil jeg ogsÂ gerne understrege, at det er strengt ulovligt at piratkopiere ordbogen. Hvis du kan lide sproget, sÂ k¯b det! Dette program er udelukkende tÊnkt til at hjÊlpe folk til at kunne migrere til andre styresystemer end Windows og Mac -- uden at skulle miste adgangen til deres legalt erhvervede software.
+God arbejdslyst. Ligesom Athas vil jeg ogsÔøΩ gerne understrege, at det er strengt ulovligt at piratkopiere ordbogen. Hvis du kan lide sproget, sÔøΩ kÔøΩb det! Dette program er udelukkende tÔøΩnkt til at hjÔøΩlpe folk til at kunne migrere til andre styresystemer end Windows og Mac -- uden at skulle miste adgangen til deres legalt erhvervede software.
 
 //ejvindh
-=======
-=======
->>>>>>> f9e0f29076d744980ad48af990f6f145efb043a8
-JavaGro
-=======
-
-Java-reader til Gyldendals ordb√∏ger
-
-Dette projekt er en videref√∏rsel af Athas-crew'ets arbejde med at lave en reader af Gyldendals ordb√∏ger, der fungerer p√• andet end Windows og Mac:
-https://github.com/Athas/spt-gro
-
-I et andet projekt har jeg udvidet det til at kunne h√•ndtere flere ordb√∏ger:
-https://github.com/ejvindh/spt-gro
-
-I dette projekt har jeg oversat Python-koden til Java-kode. Perspektivet er her, at man vil kunne k√∏re Javakoden p√• endnu flere platforme. Forel√∏big er det kun testet til at virke p√• Windows og Linux. P√• Mac har jeg ikke kunne f√• det til at k√∏re, eftersom jeg ikke har lykkedes med at finde en maskine med Java7 installeret.
-
-Dette projekt foruds√¶tter Java7 for at kunne fungere.
-
-Dette projekt kan h√•ndtere de ordb√∏ger, der findes p√•:
-http://ordbog.gyldendal.dk/
-Det er testet p√• "Download" ordb√∏gerne, s√• hvis du i forvejen har en CDrom el.lign med ordb√∏gerne, er det ikke sikkert, at du kan bruge databaserne derfra -- i hvert fald ikke hvis det er en √¶ldre udgave.
-
-I skrivende stund findes der ordb√∏ger engelsk, tysk, fransk, spansk, italiensk, svensk, norsk, engelsk (fag/teknik), stor dansk-engelsk, stor engelsk-dansk, retskrivning, fremmedord, synonymer, dansk. Alle disse kan h√•ndteres af dette projekt.
-
-For at k√∏re programmet, skal du
-(1) Kopiere ordbogsfilerne over i /data/-mappen. For at finde disse filer, er du n√∏dt til at have installeret den p√•g√¶ldende ordbog p√• en windows-computer (eller Wine i Linux). Herefter kan du finde dem i mappen %Program Files%Gyldendal/R√∏de Ordb√∏ger/data -- det drejer sig om to filer for hver ordbog, og de har fil-endelserne *.dat og *.gdd.
-
-(2) S√• er du klar til at k√∏re programmet. Det startes med kommandoen:
-java -jar JavaGro.jar
-
-God arbejdslyst. Ligesom Athas vil jeg ogs√• gerne understrege, at det er strengt ulovligt at piratkopiere ordbogen. Hvis du kan lide sproget, s√• k√∏b det! Dette program er udelukkende t√¶nkt til at hj√¶lpe folk til at kunne migrere til andre styresystemer end Windows og Mac -- uden at skulle miste adgangen til deres legalt erhvervede software.
-
-//ejvindh
-<<<<<<< HEAD
->>>>>>> f9e0f29076d744980ad48af990f6f145efb043a8
-=======
->>>>>>> f9e0f29076d744980ad48af990f6f145efb043a8
