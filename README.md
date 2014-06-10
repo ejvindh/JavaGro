@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 JavaGro
 =======
 
@@ -32,6 +33,8 @@ God arbejdslyst. Ligesom Athas vil jeg ogs� gerne understrege, at det er strengt
 
 //ejvindh
 =======
+=======
+>>>>>>> f9e0f29076d744980ad48af990f6f145efb043a8
 JavaGro
 =======
 
@@ -62,4 +65,7 @@ java -jar JavaGro.jar
 God arbejdslyst. Ligesom Athas vil jeg også gerne understrege, at det er strengt ulovligt at piratkopiere ordbogen. Hvis du kan lide sproget, så køb det! Dette program er udelukkende tænkt til at hjælpe folk til at kunne migrere til andre styresystemer end Windows og Mac -- uden at skulle miste adgangen til deres legalt erhvervede software.
 
 //ejvindh
+<<<<<<< HEAD
+>>>>>>> f9e0f29076d744980ad48af990f6f145efb043a8
+=======
 >>>>>>> f9e0f29076d744980ad48af990f6f145efb043a8
