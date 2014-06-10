@@ -20,11 +20,12 @@ Det er testet på "Download" ordbøgerne, så hvis du i forvejen har en CDrom el
 I skrivende stund findes der ordbøger engelsk, tysk, fransk, spansk, italiensk, svensk, norsk, engelsk (fag/teknik), stor dansk-engelsk, stor engelsk-dansk, retskrivning, fremmedord, synonymer, dansk. Alle disse kan håndteres af dette projekt.
 
 For at køre programmet, skal du
+
 (1) Hente JavaGro.jar ned på din computer.
 
 (2) Kopiere ordbogsfilerne over i en undermappe til der hvor JavaGro ligger. Mappen skal hedde "data". For at finde disse filer, er du nødt til at have installeret den pågældende ordbog på en windows-computer (eller Wine i Linux). Herefter kan du finde dem i mappen %Program Files%Gyldendal/Røde Ordbøger/data -- det drejer sig om to filer for hver ordbog, og de har fil-endelserne *.dat og *.gdd.
 
-(2) Så er du klar til at køre programmet. Det startes med kommandoen:
+(3) Så er du klar til at køre programmet. Det startes med kommandoen:
 java -jar JavaGro.jar
 
 God arbejdslyst. Ligesom Athas vil jeg også gerne understrege, at det er strengt ulovligt at piratkopiere ordbogen. Hvis du kan lide sproget, så køb det! Dette program er udelukkende tænkt til at hjælpe folk til at kunne migrere til andre styresystemer end Windows og Mac -- uden at skulle miste adgangen til deres legalt erhvervede software.
