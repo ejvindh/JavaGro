@@ -8,11 +8,7 @@ public class Dictionary {
 	
 	public static String[][] lookup(boolean toD, boolean fromD, boolean eks, boolean rev, 
 			int doubflag, String lang_longname, String gdd_file_path, String dat_file_path
-<<<<<<< HEAD
 			, String search_string_orig) throws ClassNotFoundException, SQLException, IOException {
-=======
-			, String search_string) throws ClassNotFoundException, SQLException, IOException {
->>>>>>> a07388813fc646b77195251e38855273ee66cb5d
 		// Hovedopgaven for denne metode er at finde ud af hvilke tabeller der skal kigges i i Gdd-databasen
 		// Til slut kaldes metoden getEntries for at finde vektorerne i gdd-databasen for de indtastede søgeord
 		// Og getRawEntryText bruges til at udtrække selve opslagene i dat-databasen
@@ -20,8 +16,6 @@ public class Dictionary {
 	    Connection conn = null;
 		conn = DriverManager.getConnection("jdbc:sqlite:" + gdd_file_path);
 		RandomAccessFile dat_file = new RandomAccessFile(dat_file_path, "r");
-		
-<<<<<<< HEAD
 		String search_string = search_string_orig.toLowerCase()
 				.replaceAll("[éèêë]", "e")
 				.replaceAll("[àâ]", "a")
@@ -33,8 +27,6 @@ public class Dictionary {
 				.replaceAll("ñ", "n")
 				.replaceAll("ß", "ss")
 				.replaceAll("œ", "oe");
-=======
->>>>>>> a07388813fc646b77195251e38855273ee66cb5d
 		String[][] results = new String[2][3];
 		ArrayList<String> tables = new ArrayList<String>();
 		tables.add("lookup");
@@ -164,11 +156,6 @@ public class Dictionary {
 			}
 			String raw_entry = Groparser.parse_entry(data, entry_id);
 			String filtered_entry = Groparser.filter_entry(raw_entry);
-<<<<<<< HEAD
-			//TODO:
-			System.out.println(filtered_entry + "\n\nhansen\n\n");
-=======
->>>>>>> a07388813fc646b77195251e38855273ee66cb5d
 			raw_entries.add(filtered_entry);
 		}
 		StringBuffer raw_entries_collect_to_string = new StringBuffer();
