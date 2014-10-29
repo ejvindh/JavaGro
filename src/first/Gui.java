@@ -293,6 +293,7 @@ public class Gui implements Initializable {
 			System.out.println("No dictionaries found!");
 		}
 		
+<<<<<<< HEAD
 		Platform.runLater(() -> {
 			fromDanishButton.getScene().getAccelerators().put(
                     new KeyCodeCombination(KeyCode.F, KeyCombination.SHORTCUT_DOWN),
@@ -320,6 +321,8 @@ public class Gui implements Initializable {
         lang.setTooltip(new Tooltip("<ctrl/cmd d>"));
         searchtxt.setTooltip(new Tooltip("<ctrl/cmd l>"));
         
+=======
+>>>>>>> a07388813fc646b77195251e38855273ee66cb5d
 		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
 			//Slutter
 			if (settings.size() > 0) write_xml(settings, datadir+settingsFileName);

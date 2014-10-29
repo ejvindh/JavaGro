@@ -31,6 +31,7 @@ java -jar JavaGro.jar
 God arbejdslyst. Ligesom Athas vil jeg også gerne understrege, at det er strengt ulovligt at piratkopiere ordbogen. Hvis du kan lide sproget, så køb det! Dette program er udelukkende tænkt til at hjælpe folk til at kunne migrere til andre styresystemer end Windows og Mac -- uden at skulle miste adgangen til deres legalt erhvervede software.
 
 //ejvindh
+<<<<<<< HEAD
 
 
 v1.2: Oktober/November 2014
@@ -48,3 +49,5 @@ v1.1: Juni 2014:
 v1.0: Sommer 2013:
 -- Første version, kører GUI-mæssigt på SWT, hvor jeg bundler pakker til 6 styresystemer (mac, lin, win, 32/64bit)
 -- De facto kan jeg ikke få det til at virke i mac
+=======
+>>>>>>> a07388813fc646b77195251e38855273ee66cb5d

@@ -58,6 +58,10 @@ public class Groparser {
 	
 	public static String filter_entry(String raw_entry) {
 		String raw_split = split_to_string(raw_entry);
+<<<<<<< HEAD
+=======
+		//System.out.println("\n\n" + raw_split);
+>>>>>>> a07388813fc646b77195251e38855273ee66cb5d
 		StringBuffer txt = new StringBuffer(raw_split);
 		int first_div=txt.indexOf("<div>");
 		if (first_div == -1) first_div=txt.indexOf(".") + 1;// ellers giver uk-politikken og dk-hansen fejl
@@ -117,7 +121,11 @@ public class Groparser {
 		String[] temp = data.toString().trim().split("\0", -2);
 		
 		StringBuffer temp2 = new StringBuffer();
+<<<<<<< HEAD
 		for(String i : temp) temp2.append(i + " ");
+=======
+		for(String i : temp) temp2.append(i);
+>>>>>>> a07388813fc646b77195251e38855273ee66cb5d
 		return temp2.toString();   
 	}
 }
