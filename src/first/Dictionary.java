@@ -18,7 +18,7 @@ public class Dictionary {
 		RandomAccessFile dat_file = new RandomAccessFile(dat_file_path, "r");
 		String search_string = search_string_orig.toLowerCase()
 				.replaceAll("[éèêë]", "e")
-				.replaceAll("[àâ]", "a")
+				.replaceAll("[àâä]", "a")
 				.replaceAll("[ùûü]", "u")
 				.replaceAll("[îï]", "i")
 				.replaceAll("[ôö]", "o")
