@@ -310,7 +310,14 @@ public class Gui implements Initializable {
                     lang::show);
             searchtxt.getScene().getAccelerators().put(
                     new KeyCodeCombination(KeyCode.L, KeyCombination.SHORTCUT_DOWN),
-                    searchtxt::requestFocus);
+                    new Runnable() {
+                        @Override
+                        public void run() {
+                            searchtxt.requestFocus();
+                            searchtxt.selectAll();
+                        }
+                    }
+                    );
         });
         fromDanishButton.setTooltip(new Tooltip("<ctrl/cmd f>"));
         toDanishButton.setTooltip(new Tooltip("<ctrl/cmd t>"));
@@ -324,7 +331,7 @@ public class Gui implements Initializable {
 			if (settings.size() > 0) write_xml(settings, datadir+settingsFileName);
 		}));
 	}
-
+	
 	private void getSettings() {
 		// Hent settings fra sidst, eller lav en ny settings-file
 		try {
@@ -515,6 +522,7 @@ public class Gui implements Initializable {
 			t_.append(t);
 		}
 		String final_txt=t_.toString();
+		System.out.println(final_txt);
 		return final_txt;
 	}
 
