@@ -32,7 +32,8 @@ God arbejdslyst. Ligesom Athas vil jeg også gerne understrege, at det er streng
 
 //ejvindh
 
-
+v1.2.2: Juni 2021
+-- Bugfix: Mere effektiv ctrl-l tastaturgenvej.
 
 v1.2: Oktober/November 2014
 -- Bugfix: Bedre søgning på internationale bogstaver
